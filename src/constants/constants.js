@@ -1,2 +1,2 @@
-export const BASE_URL = "https://medi-track-bakend.vercel.app/api"
+export const BASE_URL = "https://backend-kohl-rho-40.vercel.app/api"
 
