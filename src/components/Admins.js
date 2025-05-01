@@ -565,8 +565,6 @@ export default function AdminDashboard() {
           alert('You are not authenticated. Please log in.');
           return;
         }
-
-        console.log("Sending doctorData:", doctorData);
         const response = await fetch(BASE_URL + '/admin/add-doctor', {
           method: 'POST',
           headers: {

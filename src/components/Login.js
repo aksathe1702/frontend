@@ -34,6 +34,9 @@ const Login = () => {
     return () => clearInterval(interval); // Cleanup
   }, []);
 
+  console.log("Sending login data:", { email, password, role: selectedRole });
+
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
